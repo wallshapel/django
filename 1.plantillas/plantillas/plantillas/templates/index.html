@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Template</title>
+	</head>
+	<body>
+		<header>
+			{% include 'partials/nav.html' %} {# Forma de incrustar html externo en plantillas de django #}
+		</header>
+		<h1>Hello {{ name }}, from a Django template</h1>{# con {{ name }} rescatamos el valor desde la vista #}
+		<p>today: {{ now.day }}</p> {# Devuelve el número del día dentro del mes actual #}
+		<ul>
+			{% for subject in subjects %}{# Forma de usar bucles python dentro de plantillas #}
+			<li>{{ subject }}</li>
+			{% endfor %}
+		</ul>
+		<a href="{% url 'son' %}">Go to son template</a>
+		{% comment %}
+			Esta es la forma de hacer comentarios 
+			multilínea
+		{% endcomment %}	
+	</body>
+</html>

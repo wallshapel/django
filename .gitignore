@@ -1,0 +1,47 @@
+/0.primeraApp/db.sqlite3
+/0.primeraApp/db.sqlite3/venv
+/0.primeraApp/db.sqlite3/__pycache__
+/0.primeraApp/db.sqlite3/staticfiles/
+
+# environment variables
+/0.primeraApp/db.sqlite3/.env.local
+
+/1.plantillas/db.sqlite3
+/1.plantillas/db.sqlite3/venv
+/1.plantillas/db.sqlite3/__pycache__
+/1.plantillas/db.sqlite3/staticfiles/
+
+# environment variables
+/1.plantillas/db.sqlite3/.env.local
+
+/2.modelos/db.sqlite3
+/2.modelos/db.sqlite3/venv
+/2.modelos/db.sqlite3/__pycache__
+/2.modelos/db.sqlite3/staticfiles/
+
+# environment variables
+/2.modelos/db.sqlite3/.env.local
+
+/3.postgresql/db.sqlite3
+/3.postgresql/db.sqlite3/venv
+/3.postgresql/db.sqlite3/__pycache__
+/3.postgresql/db.sqlite3/staticfiles/
+
+# environment variables
+/3.postgresql/db.sqlite3/.env.local
+
+/4.panel_admin/db.sqlite3
+/4.panel_admin/db.sqlite3/venv
+/4.panel_admin/db.sqlite3/__pycache__
+/4.panel_admin/db.sqlite3/staticfiles/
+
+# environment variables
+/4.panel_admin/db.sqlite3/.env.local
+
+/5.formularios/db.sqlite3
+/5.formularios/db.sqlite3/venv
+/5.formularios/db.sqlite3/__pycache__
+/5.formularios/db.sqlite3/staticfiles/
+
+# environment variables
+/5.formularios/db.sqlite3/.env.local

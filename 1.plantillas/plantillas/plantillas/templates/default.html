@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{% block title %}{% endblock %}</title>{# Indicamos con {% block title %}{% endblock %} que lo que esté dentro de esas etiquetas, será elñ título de cada plantilla que herede de esta #}
+	</head>
+	<body>
+		<h1>This is a Parent template</h1> {# Contenido en común que tendrá las plantillas que hereden de esta #}	
+		{% block content %} {% endblock %} {# Entre block content %} {% endblock %} irá el contenido de cada plantilla que here de esta #}
+	</body>
+</html>

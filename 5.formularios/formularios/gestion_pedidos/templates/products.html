@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Products finder</title>
+	</head>
+	<body>
+		<form action="{% url 'find' %}" method="GET">
+			<label for="product">
+				<input type="text" name="product" id="product" autofocus>
+				<input type="submit" value="Find">
+			</label>
+		</form>	
+	</body>
+</html>
